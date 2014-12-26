@@ -8,10 +8,12 @@ public class Problem1 {
       System.out.println(multiplesThreeFive(input.nextInt()));
   }
 
-  private static int multiplesThreeFive(int number) {
-    int sumThrees = (3 + number / 3 * 3) * (number / 6);
-    int sumFives = (5 + number / 5 * 5) * (number / 5);
-    int sumFifteen = (15 + number / 15 * 15 ) * (number / 15);
+  public static int multiplesThreeFive(int number) {
+    number--;
+    int sumThrees = (int) ((3 + number / 3 * 3) * (number / 3 / 2.0));
+    int sumFives = (int) ((5 + number / 5 * 5) * (number / 5 / 2.0));
+    int sumFifteen = (int) ((15 + number / 15 * 15 ) * (number / 15 / 2.0));
     return sumThrees + sumFives - sumFifteen;
   }
+  //to do: test all cases 1 < n < 10^9
 }
