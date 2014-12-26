@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7636e51-2ed6-44e8-9bc2-e7e2b012dbe7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem1.java" afterPath="$PROJECT_DIR$/src/Problem1.java" />
-    </list>
+    <list default="true" id="f7636e51-2ed6-44e8-9bc2-e7e2b012dbe7" name="Default" comment="" />
     <ignored path="ProjectEuler.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
